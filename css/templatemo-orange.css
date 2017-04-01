@@ -420,5 +420,8 @@ font-weight: bold;
       transform:scale(.6);
       margin: -50px 0 -50px 0;
     }
+    .box{
+      display: none;
+    }
 }
 
