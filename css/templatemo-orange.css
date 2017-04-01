@@ -345,13 +345,13 @@ font-weight: bold;
 
 /*旋转*/
 .arc{
-  height: 500px;
+  height: auto;
   /*background: red;*/
   margin-top: 30px;
 }
 .arc .center{
   /*min-width: 500px;*/
-  height: 500px;
+  height: auto;
   /*background: green;*/
 }
 .arc .yuan{
@@ -413,5 +413,12 @@ font-weight: bold;
 
 
 
-
+@media screen and (max-width: 768px) {
+    .arc{
+      /*width: 150px;
+      height: 150px;*/
+      transform:scale(.6);
+      margin: -50px 0 -50px 0;
+    }
+}
 
