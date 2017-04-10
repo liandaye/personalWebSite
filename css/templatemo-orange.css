@@ -424,5 +424,8 @@ font-weight: bold;
     footer{
       padding-top: 80px;
     }
+      .top1,.top2,.top3,.top4,.top5,.top6{
+      transform:none!important;
+    }
 }
 
